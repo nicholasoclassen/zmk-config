@@ -8,6 +8,10 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+// columns = 0,2,3,4,5,6,7,8,9,10,16,14 (left to right)
+// rows = 15,18,19,20,21 (top to bottom)
+// example: D is c4>>r3, so circuit is 4>>19
+
 / {
     keymap {
         compatible = "zmk,keymap";
