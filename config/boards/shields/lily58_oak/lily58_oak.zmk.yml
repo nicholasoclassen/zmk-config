@@ -2,7 +2,7 @@ file_format: "1"
 id: lily58_oak
 name: lily58_oak
 type: shield
-url: https://github.com/nicholasoclassen/zmk-config
+url: https://github.com/nicholasoclassen/zmk-config/
 requires: [pro_micro]
 exposes: [i2c_oled]
 features:
