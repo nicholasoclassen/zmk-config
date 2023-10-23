@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MIT
 
 config SHIELD_LILY58-OAKL
-    def_bool $(shields_list_contains,lily58-oakl)
+    def_bool $(shields_list_contains,lily58-oak_left)
 
 config SHIELD_LILY58-OAKR
-    def_bool $(shields_list_contains,lily58-oakr)
+    def_bool $(shields_list_contains,lily58-oak_right)
