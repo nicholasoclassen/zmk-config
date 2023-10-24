@@ -1,7 +1,7 @@
 if SHIELD_LILY58_OAK_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Lily58oak"
+    default "Lily58_oak"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
