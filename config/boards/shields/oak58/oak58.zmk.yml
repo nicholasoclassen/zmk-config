@@ -1,6 +1,6 @@
 file_format: "1"
-id: lily58_oak
-name: Lily58_oak
+id: oak58
+name: oak58
 type: shield
 url: https://github.com/nicholasoclassen/zmk-config
 requires: [pro_micro]
@@ -9,5 +9,5 @@ features:
   - keys
   - display
 siblings:
-  - lily58_oak_left
-  - lily58_oak_right
+  - oak58_left
+  - oak58_right
