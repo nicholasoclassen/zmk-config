@@ -1,12 +1,3 @@
-if SHIELD_OAK58_LEFT
-
-config ZMK_KEYBOARD_NAME
-    default "oak58"
-
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-endif
 
 if SHIELD_OAK58_LEFT || SHIELD_OAK58_RIGHT
 
