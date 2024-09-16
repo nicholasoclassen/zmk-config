@@ -8,6 +8,13 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
+if SHIELD_OAK58_RIGHT
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default n
+
+endif
+
 if SHIELD_OAK58_LEFT || SHIELD_OAK58_RIGHT
 
 config ZMK_SPLIT
