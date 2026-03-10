@@ -67,11 +67,11 @@
 
         layer_3 {
             bindings = <
-&kp M  &kp W   &kp R   &kp N6  &kp U   &kp O                   &trans  &trans  &trans  &trans  &trans  &trans
-&kp J  &kp N2  &kp E   &kp T   &kp N7  &kp N9                  &trans  &trans  &trans  &trans  &trans  &trans
-&kp N  &kp Q   &kp N3  &kp N5  &kp Y   &kp I                   &trans  &trans  &trans  &trans  &trans  &trans
-&kp H  &kp M   &kp W   &kp R   &kp N6  &kp U   &to 0   &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp M  &kp PERIOD  &kp Q          &kp NUMBER_3  &kp R         &kp O                              &trans  &trans  &trans  &trans  &trans  &trans
+&kp J  &kp L       &kp SLASH      &kp W         &kp NUMBER_4  &kp U                              &trans  &trans  &trans  &trans  &trans  &trans
+&kp N  &kp COMMA   &kp SEMICOLON  &kp NUMBER_2  &kp E         &kp N7                             &trans  &trans  &trans  &trans  &trans  &trans
+&kp H  &kp M       &kp PERIOD     &kp Q         &kp NUMBER_3  &kp RIGHT_BRACKET  &to 0   &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                  &trans        &trans        &trans             &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
